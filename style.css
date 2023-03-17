@@ -101,12 +101,14 @@ input[type="password"] {
   opacity: 50%;
 }
 
-input[type="text"]:hover,
+/* input[type="text"]:hover,
 input[type="email"]:hover,
 input[type="password"]:hover,
 input[type="text"]:focus,
 input[type="email"]:focus,
-input[type="password"]:focus {
+input[type="password"]:focus */
+
+input:hover{
   border: 2px solid #8249ff;
   opacity: 100%;
 }
@@ -127,11 +129,12 @@ input[type="password"]:focus {
   background-color: #6b19ff;
 }
 .social-media {
+  /* align-items: baseline; */
   text-align: center;
   margin-top: 10px;
 }
 .social-media span {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 .social-media span,
 .welcome p {
